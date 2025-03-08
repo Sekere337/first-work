@@ -1,0 +1,32 @@
+
+.bg-intro {
+    height: 680px;
+    width:900px;
+    margin-left: 300px;
+    margin-bottom: 300px;
+    
+    }
+    
+    .mockup-img {
+      height: 600px;
+      width: 100%;
+    
+    }
+    
+    .image-wrap {
+     width: 50vw;
+     height: 90vh;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: start;
+    }
+    
+    .mockup-img-wrap {
+      position: absolute;
+      border-color: black;
+      right: -17px;
+      width: ;
+      
+    }
+    

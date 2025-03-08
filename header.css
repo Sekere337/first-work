@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .request-invite {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    cursor: pointer;
+    }
+    
+    .nav-buttons {
+      display: flex;
+      width: 350px;
+      justify-content: space-between;
+    }
+    
+    .nav-buttons div {
+      color: hsl(233, 8%, 62%);
+      cursor: pointer;
+      font-family: public sans;
+      height: 60px;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-buttons div:hover {
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: hsl(136, 65%, 51%);
+
+    }
