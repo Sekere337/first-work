@@ -1,32 +1,38 @@
+.mockups img {
+  height: 700px;
+  
+}
 
-.bg-intro {
-    height: 680px;
-    width:900px;
-    margin-left: 300px;
-    margin-bottom: 300px;
+.mockups {
+  position: absolute;
+  right: 10px;
+  top: -85px;
+  right: -100;
+  left: 660px;
+ margin-left: 200px;
+}
+
+.request-invite .tooltip {
+position: absolute;
+background-color: grey;
+color: white;
+padding: 4px 8px 4px  8px;
+bottom: -14px;
+left: 40;
+opacity: 0;
+transition: opacity 0.15s;
+pointer-events: none;
+}
+
+.request-invite:hover .tooltip {
+  opacity: 1;
+}
+
     
-    }
     
-    .mockup-img {
-      height: 600px;
-      width: 100%;
     
-    }
     
-    .image-wrap {
-     width: 50vw;
-     height: 90vh;
-     position: relative;
-     display: flex;
-     justify-content: center;
-     align-items: start;
-    }
     
-    .mockup-img-wrap {
-      position: absolute;
-      border-color: black;
-      right: -17px;
-      width: ;
       
-    }
+    
     
