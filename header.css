@@ -11,6 +11,29 @@
     z-index: 10;
   }
 
+  .logo {
+    cursor: pointer;
+    position: relative;
+  }
+  .logo .tooltip {
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+    left: 70px;
+    top: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    white-space: nowrap;
+  }
+
+  .logo:hover .tooltip {
+    opacity: 1;
+  }
+
+
   .request-invite {
     border: none;
     padding-top: 10px;
@@ -42,5 +65,27 @@
         border-bottom-width: 2px;
         border-bottom-style: solid;
         border-bottom-color: hsl(136, 65%, 51%);
-
     }
+
+    .about-button {
+      position: relative;
+    }
+
+  .about-button .tooltip {
+    background-color: grey;
+    color: white;
+    padding: 2px 5px 4px 5px;
+    height: 30px;
+    position: absolute;
+    bottom: -20px;
+    left: -40px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+  }
+
+  .about-button:hover .tooltip {
+    opacity: 1;
+  }
