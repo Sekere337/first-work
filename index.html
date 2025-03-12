@@ -25,13 +25,16 @@
 <body>
 
   <div class="header">
-   <div>
-    <img src="./images/logo.svg" alt="easybank-logo">
+   <div class="logo">
+    <img  src="./images/logo.svg" alt="easybank-logo">
+    <div class="tooltip">Easybank logo</div>
    </div>
 
    <div class="nav-buttons"> 
     <div>Home</div>
-    <div>About</div>
+    <div class="about-button">About
+      <div class="tooltip">About us</div>
+    </div>
     <div>Contact</div>
     <div>Blog</div>
     <div>Careers</div>
@@ -40,41 +43,52 @@
    <div>
     <button class="request-invite">
       Request Invite
+      <div class="tooltip">Click to Request</div>
     </button>
    </div>
   </div>
 
-  
-  <div class="hero">
-    <div class="text-wrap">
+ <div class="hero">
+  <div class="left-wrapper">
+    <div class="hero-title">
       <h1>
-        Next generation digital banking
+        Next generation <br>
+        digital banking
       </h1>
-      <p class="hero-text">
-        Take your financial life online. Your Easybank account <br>will be a one-stop-shop 
-         for spending, saving, <br>budgeting, investing, and much more.
+    </div>
+
+    <div>
+      <p class="description">
+        Take your financial life online. Your Easybank account <br>
+         will be a one-stop-shop 
+          for spending, saving, <br>
+        budgeting, investing, and much more.
       </p>
+    </div>
+
+    <div>
       <button class="request-invite">
         Request Invite
       </button>
     </div>
 
-    <div class="image-wrap">
-      <div class="mockup-img-wrap">
-        <img class="mockup-img" src="./images/image-mockups.png" alt="">
-      </div>
-  
-        <img class="bg-intro " src="./images/bg-intro-desktop.svg" alt="">
-        
-    </div>
   </div>
+  <div class="right-wrapper">
+    <img src="./images/bg-intro-desktop.svg" alt="">
+  </div>
+
+  <div class="mockups">
+    <img src="./images/image-mockups.png" alt="">
+  </div>
+  
+</div>
 
   <div class="features">
     <div class="feature-top-wrap">
       <h2>
         Why choose Easybank?
       </h2>
-      <p class="hero-text">
+      <p class="feature-desription">
         We leverage Open Banking to turn your bank account into your financial hub. <br> Control 
         your finances like never before.
       </p>
@@ -130,121 +144,96 @@
       </div>
 
     </div>
+  </div>
 
-</div>
-
-      <div class="articles">
-      <div id="wrap-all">
-        <div>
-          <h2>Latest Articles</h2>
+    <div class="latest-articles">
+        <div class="latest-article-head">
+          <h2>Latest articles</h2>
         </div>
-
-      <div class="articles-container">
-        <div class="articles-wrap">
-          <img class="currency-img" src="./images/image-currency.jpg" alt="">
-            
-            <div class="article-author-wrap">
-              <p class="author">
-                By Claire Robinson
-              </p>
-            
-            <h3 class="topic">
-              Receive money in any currency with no fees
-            </h3>
-            
-            <p class="feature-text">
-              The world is getting smaller and <br> we’re becoming more mobile. So <br> why should you be 
-              forced to only <br>receive money in a single …
-            </p>
+      <div class="card-wrap">
+        <div class="article-card">
+          <img class="article-image-one" src="./images/image-currency.jpg" alt="">
+          <span class="author">
+            By Claire Robinson
+          </span>
+          <div class="title">
+          <h3>Receive money in any currency with no fees</h3>
           </div>
+          <p class="article-preview">The world is getting smaller and we’re becoming more mobile. So why should you be 
+            forced to only receive money in a single …</p>
         </div>
 
-        <div class="second-article">
-          <img class="currency-img" src="./images/image-restaurant.jpg" alt="">
-          <div class="article-author-wrap">
-            <p class="author">
-              By Wilson Hutton
-            </p>
-          
-          <h3 class="topic">
-            Treat yourself without worrying about money
-          </h3>
-          
-          <p class="feature-text">
-            Our simple budgeting feature allows you to separate out your spending and set 
-          realistic limits each month. That means you …
-          </p>
-        </div>
+        <div class="article-card">
+          <img class="article-image-one" src="./images/image-restaurant.jpg" alt="">
+          <span class="author">
+            By Wilson Hutton
+          </span>
+          <div class="title">
+          <h3>Treat yourself without worrying about money</h3>
+          </div>
+          <p class="article-preview"> Our simple budgeting feature allows you to separate out your spending and set 
+            realistic limits each month. That means you …</p>
         </div>
 
-        <div class="second-article">
-          <img class="currency-img" src="./images/image-plane.jpg" alt="">
-          <div class="article-author-wrap">
-            <p class="author">
-              By Wilson Hutton
-            </p>
-          
-          <h3 class="topic">
-            Take your Easybank card wherever you go
-          </h3>
-          
-          <p class="feature-text">
-            We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
-        while you’re abroad. We’ll even show you …
-          </p>
-        </div>
+        <div class="article-card">
+          <img class="article-image-one" src="./images/image-plane.jpg" alt="">
+          <span class="author">
+            By Wilson Hutton
+          </span>
+          <div class="title">
+          <h3> Take your Easybank card wherever you go</h3>
+          </div>
+          <p class="article-preview"> We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+            while you’re abroad. We’ll even show you …</p>
         </div>
 
-        <div class="second-article">
-          <img class="currency-img" src="./images/image-confetti.jpg" alt="">
-          <div class="article-author-wrap">
-            <p class="author">
-              By Claire Robinson
-            </p>
-          
-          <h3 class="topic">
-            Our invite-only Beta accounts are now live!
-          </h3>
-          
-          <p class="feature-text">
-            After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-        It’s easy to request an invite through the site ...
-          </p>
+        <div class="article-card">
+          <img class="article-image-one" src="./images/image-confetti.jpg" alt="">
+          <span class="author">
+            By Claire Robinson
+          </span>
+          <div class="title">
+          <h3>Our invite-only Beta accounts are now live!</h3>
+          </div>
+          <p class="article-preview"> After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+            It’s easy to request an invite through the site ...</p>
         </div>
-        </div>
+
         
-        </div>
-          
-        
-
+            
+          </div>
         </div>
       </div>
+    </div>
+          
 
-      <div class="footer">
-        <div class="footer-left-wrap">
-          <div class="footer-images-wrap">
-          <div class="image-container">
-            <img class="footer-logo" src="./images/logo.svg" alt="easybank-logo">
-            
-            <div class="overlay-text">
-                easybank
+        
+
+        <div class="footer">
+          <div class="footer-left-wrap">
+            <div class="footer-images-wrap">
+            <div class="image-container">
+              <img class="footer-logo" src="./images/logo.svg" alt="easybank-logo">
+              
+              <div class="overlay-text">
+                  easybank
+              </div>
+            </div> 
+
+            <div class="footer-imgs">
+              <img src="./images/icon-facebook.svg" alt="">
+              <img src="./images/icon-youtube.svg" alt="">
+              <img src="./images/icon-twitter.svg" alt="">
+              <img src="./images/icon-pinterest.svg" alt="">
+              <img src="./images/icon-instagram.svg" alt="">
             </div>
-           </div> 
+            </div>
 
-           <div class="footer-imgs">
-            <img src="./images/icon-facebook.svg" alt="">
-            <img src="./images/icon-youtube.svg" alt="">
-            <img src="./images/icon-twitter.svg" alt="">
-            <img src="./images/icon-pinterest.svg" alt="">
-            <img src="./images/icon-instagram.svg" alt="">
-           </div>
-          </div>
-
-          <div class="footer-contact">
-            <p>About Us</p>
-            <p>Contact</p>
-            <p> Blog</p>
-          </div>
+            <div class="footer-contact">
+              <p>About Us</p>
+              <p>Contact</p>
+              <p> Blog</p>
+            </div>
 
           <div class="footer-career">
             <p>Careers</p>
