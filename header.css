@@ -34,7 +34,7 @@
   }
 
 
-  .request-invite {
+  .request-invite-button, .request-invite {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -46,6 +46,8 @@
     cursor: pointer;
     }
     
+    
+
     .nav-buttons {
       display: flex;
       width: 350px;

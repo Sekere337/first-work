@@ -2,7 +2,7 @@
 .footer {
     background-color: hsl(233, 26%, 24%);
     width: 100vw;
-    height: 250px;
+    height: 200px;
     display: flex;
     align-items: center;
   }
@@ -100,12 +100,14 @@
   }
   
   .footer-right-wrap {
-    display: flex;
-    width: 30%;
     margin-right: 0;
      
   }
   
   .copyright p {
     color: hsl(233, 8%, 62%); 
+    margin-top: 20px;
   }
+
+  
+  
